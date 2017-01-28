@@ -4,6 +4,8 @@ This is a PHP CLI script, that creates the base image and the mask for this spec
 This script takes an animation's frames, and outputs the Amazing Animation as made popular (or at least known to me)
 by brusspup: https://youtube.com/watch?v=UW5bcsax78I
 
+If you print the two images (the mask should be printed on a transparent foil) then it will look awesome in real life too.
+
 # Demo
 
 There is a demo rendering and output included:
