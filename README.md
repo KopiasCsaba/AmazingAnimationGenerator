@@ -15,6 +15,7 @@ There is a demo rendering and output included:
 The output is two files, the mask and the base image and a test.html which let's you drag and drop the mask above the base, see it in action here:
 http://youtube.com/watch?v=Kt-P-qZyrTo
 
+The kopiascsaba.hu.ntp file is a [Natron](http://natron.fr) project file.
 # Usage
 
 ```
