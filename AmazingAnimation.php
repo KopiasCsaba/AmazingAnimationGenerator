@@ -27,6 +27,7 @@ Example:
  ./AmazingAnimation.php  --frames 'demo/render/kcs*.png' --wdir demo/final
 
 ";
+    exit(0);
 }
 
 
@@ -40,7 +41,7 @@ sort($frameFiles);
 $frameCount = count($frameFiles);
 if ($frameCount == 0) {
     print "No image have been found!\n";
-    exit;
+    exit(1);
 }
 list($w, $h) = getimagesize($frameFiles[0]);
 $columnCount = floor($w / ($frameCount));
